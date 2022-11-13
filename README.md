@@ -5,3 +5,5 @@ This code is to transfer trajectory/velocity curve (as shown in the upper left c
 </div>
 The algorithm we use to encode is Cyclic redundancy check (CRC) algorithm. For more information, please check https://zlib.net/crc_v3.txt.
 CRC needs a initialize check code. In this project, the default initialize check code is a 8-byte code. 
+Input: Discrete trajectory/velocity data. 
+Output: CRC_message, CRC_polumial, CRC_divisor, CRC_reminder,  
